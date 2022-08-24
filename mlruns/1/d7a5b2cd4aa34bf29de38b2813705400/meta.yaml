@@ -1,0 +1,15 @@
+artifact_uri: file:///home/icaro/Projetos/Avaliacao_vinhos/mlruns/1/d7a5b2cd4aa34bf29de38b2813705400/artifacts
+end_time: 1661359040773
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+name: ''
+run_id: d7a5b2cd4aa34bf29de38b2813705400
+run_uuid: d7a5b2cd4aa34bf29de38b2813705400
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1661359038902
+status: 3
+tags: []
+user_id: icaro
