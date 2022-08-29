@@ -1,4 +1,4 @@
-artifact_location: file:///home/icaro/Projetos/Avaliacao_vinhos/mlruns/1
+artifact_location: file:///home/icaro/Projetos/Vinhos/mlruns/1
 experiment_id: '1'
 lifecycle_stage: active
 name: Vinhos
