@@ -92,8 +92,12 @@
                     </form>
                 </div>
 
-                {% if resposta: %}
+                {% if resposta == 1: %}
 
+                    <div class="col">
+                        {{resposta}}
+                    </div>
+                {%elif resposta == 0%}
                     <div class="col">
                         {{resposta}}
                     </div>
