@@ -34,7 +34,7 @@ def calcular():
         data = np.array([[af,av,ac,ar,clo,ld,td,den,ph,su,alc]],np.float64).tolist()
         json_data = json.dumps({"index":['af','av','ac','ar','clo','ld','td','den','ph','su','alc']
                                 ,"data":data})
-        resultado = requests.post(url='link-mlflow-server/invocations', 
+        resultado = requests.post(url='COLE O LINK AQUI/invocations', 
                                  headers={'Content-Type':'application/json'}, 
                                  data=json_data)
         resposta = resultado.text

@@ -94,20 +94,20 @@
 
                 {% if resposta == 1: %}
 
-                    <div class="col">
-                        {{resposta}}
+                    <div class="col text-center">
+                        <img class="rounded mx-auto d-block" src="{{url_for('static' ,filename='imagens/bom.jpg')}}" width="500" height="600">
                     </div>
                 {%elif resposta == 0%}
-                    <div class="col">
-                        {{resposta}}
+                    <div class="col text-center">
+                        <img class="rounded mx-auto  d-block" src="{{url_for('static', filename='imagens/ruim.jpg')}}" width="500" height="600" >
                     </div>
                 {% else: %}
-                    <div class="col">
+                    <div class="col text-center">
                         <h1 class=" text-center display-2">???</h1>
                     </div>
                 {% endif %}
             </div>
-
+                
         </div>
         
 
